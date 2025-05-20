@@ -50,7 +50,7 @@ Here's a brief look at the key files and folders:
     *   `src/css/styles.css`: Your main CSS file. Includes Tailwind directives (`@import "tailwindcss";`) and is where you can customize the theme using `@theme {}`.
     *   `src/js/main.js`: Your main JavaScript entry point. It imports the CSS file and is where you can add your custom JavaScript code.
 *   **`vite.config.js`**: Vite configuration file. Includes the `@tailwindcss/vite` plugin and automatic multi-page setup. You generally won't need to touch this unless you need advanced customization.
-*   **`tailwind.config.js`**: *Not included by default in v4!* For theme customization, use `@theme` in `src/css/styles.css`. You only need to create this file if you want to configure Tailwind plugins or advanced options like `prefix`.
+*   **`tailwind.config.js`**: *Not included by default in v4!* Included as an empty file in this repository as it is required by Tailwind CSS IntelliSense (VSCode extension) to work properly. You can also edit this file if you want to configure Tailwind plugins or advanced options like `prefix`.
 *   **`package.json`**: Project metadata, scripts, and dependencies.
 *   **`.gitignore`**: Specifies files and folders that Git should ignore.
 *   **`README.md`**: This file!
